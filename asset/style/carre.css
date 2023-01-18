@@ -1,0 +1,43 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+header{
+    width: 80%;
+    margin: auto;
+}
+h1{
+    margin: 0;
+}
+article{
+    border-radius: 5px;
+    width: 80%;
+    height: 250px;
+    margin: auto;
+    background-color: rgb(158, 238, 158);
+    position: relative;
+    top: 120px;
+}
+@keyframes couleur {
+   from{
+    background-color: red;
+    transform: rotate(0deg);
+   }
+   to{
+    background-color: yellow;
+    transform: rotate(360deg);
+   }
+}
+#carre{
+    position: relative;
+    top: 70px;
+    border-radius: 10%;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border: 1px solid black;
+    animation-name: couleur;
+    animation-direction:alternate;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
