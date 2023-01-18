@@ -1,0 +1,99 @@
+#container{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    animation-name: translation;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+#caroussel{
+    position: absolute;
+    animation-name:rota;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    transform-style: preserve-3d; 
+}
+.carre{
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+   transform: rotateY(90deg);
+}
+.s1{
+    width: 150px;
+    display: flex;
+    position: absolute;
+    top: 65px;
+    justify-content: space-between;
+    transform-style: preserve-3d;
+}
+#placement1{
+    transform: rotate(0deg);
+} 
+#placement2{
+    transform: rotate(45deg);
+}
+#placement3{ 
+    transform: rotate(90deg);
+}
+#placement4{
+    transform: rotate(135deg);
+}   
+@keyframes rota {
+    from{
+        transform: rotate3d(0deg);
+    }
+    to{
+        transform: rotate3d(1,1,1,360deg);
+    }
+}
+@keyframes translation {
+    0% {
+        top: 100px;
+        left: 100px;
+    }
+    25% {
+        left: 1000px;
+        top: 100px;
+    }
+    50% {
+        left: 1000px;
+        top: 500px;
+    }
+    75% {
+        left: 100px;
+        top: 500px;
+    }
+    100% {
+        top: 100px;
+        left: 100px;
+    } 
+}
+#carre1{
+    background-color: aqua;
+}
+#carre2{
+    background-color: mediumpurple;
+}
+#carre3{
+    background-color: mediumorchid;
+}
+#carre4{
+    background-color: mediumslateblue;
+}
+#carre5{
+    background-color: crimson;
+}
+#carre6{
+    background-color: cornflowerblue;
+}
+#carre7{
+    background-color: darkred;
+}
+#carre8{
+    background-color: rgb(162, 45, 25);
+}
