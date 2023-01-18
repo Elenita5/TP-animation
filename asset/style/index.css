@@ -1,0 +1,81 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: rgb(200, 238, 238);
+}
+header{
+    width: 50%;
+    height: 280px;
+    margin: auto;
+    background-image: url(../images/anim.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid #b1d9e7;
+}
+header p{
+    text-align: center;
+    line-height: 200px;
+    font-size: 30px;
+    margin: 0;
+    color: honeydew;
+}
+article{ 
+    border: 1px solid #b1d9e7;
+    width: 50%;
+    margin: auto;
+    background-color: rgb(223, 243, 243);
+    padding-bottom: 80px;
+}
+article h1, h2{
+    margin-top: 40px;
+   text-align: center;
+   color: #055D7C;
+}
+h3{
+    margin-left: 25px;
+    color: #055D7C;
+    text-decoration:underline;
+    margin-bottom: 30px;
+}
+ul li{
+    width: 65%;
+    list-style: none;
+    border: 1px solid #046E92;
+    border-bottom: none;
+}
+li:last-child{
+    border-bottom: 1px solid #046E92;
+}
+ul a{
+    text-decoration: none;
+    color: darkblue;
+    display: block;
+    padding: 10px
+}
+a:hover{
+    background-color: #046E92;
+    color: white;
+   
+}
+footer{
+    border:1px solid #b1d9e7;
+    background-color:#03749B;
+    width: 50%;
+    margin: auto;
+}
+footer{
+    background-color: #046E92;
+    text-align: center;
+    color: whitesmoke;
+    width: 50%;
+    margin: auto;
+}
+#git{
+    width: 80px; 
+    border-radius: 5px;
+}
+#git:hover{
+    opacity: 0.8;
+}
+
