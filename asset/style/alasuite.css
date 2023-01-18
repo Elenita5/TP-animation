@@ -1,0 +1,90 @@
+article{
+    position: relative;
+    background-color: grey;
+    width: 32%;
+    margin: auto;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.carre{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black; 
+
+    animation-name: suite;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+@keyframes suite {
+    0% {
+      top: 0px;
+      left: 0px;
+      transform: rotate(880deg);
+    }
+    25% {
+      left: 460px;
+      top: 0px;
+    }
+    50% {
+      left: 460px;
+      top: 129px;
+    }
+    75% {
+      left: 0px;
+      top: 129px;
+    }
+    100% {
+      top: 0px;
+      left: 0px;
+    } 
+  }
+
+#un{
+    background-color: firebrick;
+    color: white;
+}
+#deux{
+    background-color: darkmagenta;
+    color: white;
+}
+#trois{
+    background-color: navajowhite;
+    color: white;
+}
+#quatre{
+    background-color: sienna;
+    color: white;
+}
+#cinq{
+    background-color: orangered;
+    color: white;
+}
+#six{
+    background-color: fuchsia;
+    color: white;
+}
+.carre:first-child{
+    animation-delay: 6s;
+}
+.carre:nth-child(2) {
+    animation-delay: 5s; 
+}
+  
+.carre:nth-child(3) {
+  	animation-delay: 4s;
+}
+.carre:nth-child(4){
+    animation-delay: 3s;
+}
+.carre:nth-child(5){
+    animation-delay: 2s;
+}
+.carre:nth-child(6){
+    animation-delay: 1s;
+}
+
+  
