@@ -19,6 +19,19 @@ article{
     position: relative;
     top: 120px;
 }
+#balle{
+    background-image: url(../images/balle.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    animation-name: balle;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
 @keyframes balle {
     0%{
         top : 0px;
@@ -86,17 +99,4 @@ article{
     100%{
         top: 350px;
     }
-}
-#balle{
-    background-image: url(../images/balle.jpg);
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    margin: auto;
-    animation-name: balle;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
 }

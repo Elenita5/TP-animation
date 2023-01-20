@@ -1,29 +1,15 @@
-#container{
-    position: relative;
-    width: 150px;
-    height: 150px;
-    animation-name: translation;
-    animation-duration: 10s;
-    animation-fill-mode: forwards;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
+body{
+    background-color: black;
 }
-#caroussel{
-    position: absolute;
-    animation-name:rota;
-    animation-duration: 10s;
-    animation-fill-mode: forwards;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    transform-style: preserve-3d; 
+h1{
+    color: white;
 }
 .carre{
     width: 20px;
     height: 20px;
-    border: 1px solid black;
    transform: rotateY(90deg);
 }
-.s1{
+.s{
     width: 150px;
     display: flex;
     position: absolute;
@@ -31,6 +17,26 @@
     justify-content: space-between;
     transform-style: preserve-3d;
 }
+#container{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    animation-name: translation;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+#caroussel{
+    position: absolute;
+    animation-name:rota;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    transform-style: preserve-3d; 
+}
+
 #placement1{
     transform: rotate(0deg);
 } 
@@ -43,6 +49,30 @@
 #placement4{
     transform: rotate(135deg);
 }   
+#carre1{
+    background-color: aqua;
+}
+#carre2{
+    background-color: mediumpurple;
+}
+#carre3{
+    background-color: mediumorchid;
+}
+#carre4{
+    background-color: mediumslateblue;
+}
+#carre5{
+    background-color: crimson;
+}
+#carre6{
+    background-color: cornflowerblue;
+}
+#carre7{
+    background-color: darkred;
+}
+#carre8{
+    background-color: rgb(162, 45, 25);
+}
 @keyframes rota {
     from{
         transform: rotate3d(0deg);
@@ -72,28 +102,4 @@
         top: 100px;
         left: 100px;
     } 
-}
-#carre1{
-    background-color: aqua;
-}
-#carre2{
-    background-color: mediumpurple;
-}
-#carre3{
-    background-color: mediumorchid;
-}
-#carre4{
-    background-color: mediumslateblue;
-}
-#carre5{
-    background-color: crimson;
-}
-#carre6{
-    background-color: cornflowerblue;
-}
-#carre7{
-    background-color: darkred;
-}
-#carre8{
-    background-color: rgb(162, 45, 25);
 }

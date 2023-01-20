@@ -19,30 +19,6 @@ article{
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
 }
-@keyframes suite {
-    0% {
-      top: 0px;
-      left: 0px;
-      transform: rotate(880deg);
-    }
-    25% {
-      left: 460px;
-      top: 0px;
-    }
-    50% {
-      left: 460px;
-      top: 129px;
-    }
-    75% {
-      left: 0px;
-      top: 129px;
-    }
-    100% {
-      top: 0px;
-      left: 0px;
-    } 
-  }
-
 #un{
     background-color: firebrick;
     color: white;
@@ -86,5 +62,32 @@ article{
 .carre:nth-child(6){
     animation-delay: 1s;
 }
+
+@keyframes suite {
+    0% {
+      top: 0px;
+      left: 0px;
+      transform: rotate(880deg);
+    }
+    25% {
+      left: 460px;
+      top: 0px;
+      background-color: blue;
+    }
+    50% {
+      left: 460px;
+      top: 129px;
+      background-color: royalblue;
+    }
+    75% {
+      left: 0px;
+      top: 129px;
+    }
+    100% {
+      top: 0px;
+      left: 0px;
+    } 
+  }
+
 
   

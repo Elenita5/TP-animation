@@ -18,16 +18,6 @@ article{
     position: relative;
     top: 120px;
 }
-@keyframes couleur {
-   from{
-    background-color: red;
-    transform: rotate(0deg);
-   }
-   to{
-    background-color: yellow;
-    transform: rotate(360deg);
-   }
-}
 #carre{
     position: relative;
     top: 70px;
@@ -40,4 +30,14 @@ article{
     animation-direction:alternate;
     animation-iteration-count: infinite;
     animation-duration: 3s;
+}
+@keyframes couleur {
+   from{
+    background-color: red;
+    transform: rotate(0deg);
+   }
+   to{
+    background-color: yellow;
+    transform: rotate(360deg);
+   }
 }
